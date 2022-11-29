@@ -3,10 +3,18 @@
     padding: 0;
 }
 
+.bg {
+    background-image: url("./img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .fundo {
-    background-color:grey;
     height: 100vh;
     color: #fff;
+    padding: 40px;
 }
 
 .calculadora {
@@ -28,11 +36,12 @@
 }
 
 .botao:hover {
-    background-color: chartreuse;
+    background-color:khaki;
 }
 
 h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 #resultado {
@@ -44,4 +53,8 @@ h1 {
     color: black;
     text-align: right;
     padding: 5px;
+}
+
+#igual {
+    background-color: #FFA500;
 }
